@@ -1,0 +1,31 @@
+    .mi-formulario {    
+      margin: 0 auto;
+      background-color: #ccd5ff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 300px;
+      font-family: Arial, sans-serif;
+    }
+
+    .mi-formulario input[type="text"],
+    .mi-formulario input[type="password"],
+    .mi-formulario input[type="email"] {
+      width: 100%; 
+      padding: 8px;
+      margin-bottom: 10px; 
+      border: 1px solid #0b0101;
+      box-sizing: border-box; 
+    }
+
+    .mi-formulario button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .h1{
+           margin: 0 auto;   
+        text-align: center;
+    }
