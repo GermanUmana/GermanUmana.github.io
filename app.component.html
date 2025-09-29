@@ -1,0 +1,28 @@
+<head><base href="https://germanumana.github.io/germanumana.github.io/">
+  <link rel="stylesheet" href="app.component.css">
+   
+<style>.mi-formulario{margin:0 auto;background-color:#ccd5ff;border:1px solid #ccc;padding:20px;width:300px;font-family:Arial,sans-serif}.mi-formulario input[type=text],.mi-formulario input[type=password],.mi-formulario input[type=email]{width:100%;padding:8px;margin-bottom:10px;border:1px solid #0b0101;box-sizing:border-box}.mi-formulario button{background-color:#007bff;color:#fff;padding:10px 15px;border:none;cursor:pointer}</style><link rel="stylesheet" href="styles-J3QUBTG2.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-J3QUBTG2.css"></noscript></head>
+
+<body>
+  <h1 style="text-align: center;">Formulario desde Angular</h1>
+  <form class="mi-formulario" [formgroup]="registroForm" (ngsubmit)="onSubmit()">
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" formcontrolname="nombre" placeholder="ingresa nombre">
+      <label for="apellido">Apellido:</label>
+      <input type="text" formcontrolname="apellido" placeholder="ingresa apellido">
+      <label for="email">Email:</label>
+      <input type="email" formcontrolname="email" placeholder="correo@correo.com">
+    </div>   
+
+    <div>
+      <label for="contraseña">Contraseña:</label>
+      <input type="password" formcontrolname="contraseña" placeholder="minimo 6 caracteres">
+    </div>
+
+    <button type="submit">
+      Registrase
+    </button>
+  </form>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-KMNNMRQJ.js" type="module"></script></body>
+
