@@ -14,8 +14,8 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/formularios",
-            "index": "src/index.html",
-            "browser": "src/main.ts",
+            "index": "src/app/app.component.html",
+            "browser": "src/app/app.component.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -27,7 +27,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/app/app.component.css"
             ],
             "scripts": []
           },
